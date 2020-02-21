@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+body {
+    padding: 0;
+    margin: 0;
+    /* display: flex;
+    justify-content: center; */
+  }
+
+  #container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+header {
+    background: skyblue;
+    flex: 1 0 100%;
+}
+main {
+    background: slateblue;
+    flex: 1 1 500px;
+}
+nav {
+    background: cadetblue;
+    flex: 1 0 100%;
+}
+ul,li {
+    display: flex;
+    justify-content: space-evenly;
+}
+aside {
+    background: slategray;
+    flex: 1 0 200px;
+}
+footer {
+    background: gray;
+    flex: 1 0 100%;
+}
